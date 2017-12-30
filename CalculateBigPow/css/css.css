@@ -1,0 +1,24 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	display: flex;
+}
+.form{
+	margin: 10% 15%; 
+	padding: 0 0 0 2%;
+	min-width: 35%;
+	height: 50%;
+	border: 2px solid #A6E6B8;
+	
+}
+
+.res{
+	width: 40%;
+	height: 50%;
+}

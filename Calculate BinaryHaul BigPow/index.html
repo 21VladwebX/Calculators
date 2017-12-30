@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Калькулятори </title>
+	<meta http-equiv="Content-type" type="text/html" charset="utf-8"   >
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<!-- <script type="text/javascript" src="js/script_ajax.js"></script> -->
+	<script type="text/javascript" src="js/jquery_ajax.js"></script>
+	
+</head>
+
+<body>
+	<div class="form">
+		<div class="BinaryHaul">
+			<p>Калькулятор бинарного сдвига</p>
+			<br/>
+			<form  action="php/BinaryHaul.php" id="form_BinaryHaul"  method="POST"  >
+				<label>Введите число:</label>
+				<input type="text" name="int" id="int"> <br/><br/>
+				<input type="submit"  id="BinaryHaul" value="Посчитать">
+			</form>
+			<br/>
+			<div class="res_BinaryHaul"></div>
+		</div>
+		<div class="BigPow">
+			<p>Калькулятор большых степеней по модулю</p>
+			<br/>
+			<form  id="form_BidgPow" action="php/BigPow.php" method="POST" >
+				<label>Введите число:</label>
+				<input type="text" name="int"  > <br/><br/>
+				<label>Введите степень:</label>
+				<input type="text" name="pow"  ><br/><br/>
+				<label>Введите степень степени:</label>
+				<input type="text" name="step"  ><br/><br/>
+				<label>Введите модуль:</label>
+				<input type="text" name="mod"  ><br/><br/>
+				<input type="submit" id="BigPow"  value="Вычислить"><br/><br/>
+			</form>
+			<div class="res_BigPow"></div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+
+
